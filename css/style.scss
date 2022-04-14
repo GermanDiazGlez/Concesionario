@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  p {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  nav {
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: 80px;
+    align-items: center;
+    gap: 15px;
+    ul {
+      display: flex;
+      gap: 15px;
+      li {
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+  header {
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    &.news {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      margin: 0 20px;
+      h2 {
+        grid-column: 1/4;
+        width: 100%;
+        text-align: center;
+      }
+      article {
+        padding: 20px;
+        border: 1px solid black;
+        h3 {
+          text-align: center;
+        }
+      }
+    }
+    &.concesionarios {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      margin: 0 20px;
+      h2 {
+        grid-column: 1/4;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  footer {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(185, 185, 185);
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}

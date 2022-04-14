@@ -1,0 +1,32 @@
+<concesionarios>
+    <concesionario tipo-vehiculo="Deportivo">
+        <nombre>Varocar</nombre>
+        <marca>Seat</marca>
+        <numeroVehiculos>38</numeroVehiculos>
+        <ubicacion lat="43.31147423748632" lng="-5.695053703377107"></ubicacion>
+        <imagen src="varocar.jpg" title="VarocarFoto" alt="Concesionario Varocar"></imagen>
+        <empleados>
+            <empleado puesto="Ventas">
+                <nombre-empleado>Juan</nombre-empleado>
+                <apellidos>Mendez Rodriguez</apellidos>
+                <telefono>62165132</telefono>
+            </empleado>
+        </empleados>
+        <direccion>Calle La Traba La Felguera Asturias España</direccion>
+    </concesionario>
+    <concesionario tipo-vehiculo="Deportivo">
+        <nombre>Varocar</nombre>
+        <marca>Seat</marca>
+        <numeroVehiculos>38</numeroVehiculos>
+        <ubicacion lat="43.31147423748632" lng="-5.695053703377107"></ubicacion>
+        <imagen src="varocar.jpg" title="VarocarFoto" alt="Concesionario Varocar"></imagen>
+        <empleados>
+            <empleado puesto="Ventas">
+                <nombre-empleado>Juan</nombre-empleado>
+                <apellidos>Mendez Rodriguez</apellidos>
+                <telefono>62165132</telefono>
+            </empleado>
+        </empleados>
+        <direccion>Calle La Traba La Felguera Asturias España</direccion>
+    </concesionario>
+</concesionarios>

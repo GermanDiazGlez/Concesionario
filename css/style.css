@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+
+body p {
+  font-size: 1.5rem;
+}
+
+body h1 {
+  font-size: 4rem;
+}
+
+body h2 {
+  font-size: 3.5rem;
+}
+
+body h3 {
+  font-size: 2rem;
+}
+
+body nav {
+  background-color: #8d8d8d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 50px;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+body nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+body nav ul li {
+  list-style-type: none;
+}
+
+body nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.6rem;
+}
+
+body nav img {
+  height: 100%;
+  width: auto;
+}
+
+body header {
+  height: 600px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section.news {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 20px;
+}
+
+body section.news h2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  width: 100%;
+  text-align: center;
+}
+
+body section.news article {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+body section.news article h3 {
+  text-align: center;
+}
+
+body section.concesionarios {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 0 20px;
+}
+
+body section.concesionarios h2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  width: 100%;
+  text-align: center;
+}
+
+body footer {
+  height: 200px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #b9b9b9;
+}
+
+body footer p {
+  font-size: 1.4rem;
+}
+/*# sourceMappingURL=style.css.map */
