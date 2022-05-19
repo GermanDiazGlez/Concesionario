@@ -1,7 +1,7 @@
 var container = $(".concesionarios");
 var ubicaciones = [];
 //Read nodes
-$.get("../xml/concesionarios.xml", function (xml) {
+$.get("./xml/concesionarios.xml", function (xml) {
   $(xml)
     .find("concesionario")
     .each(function () {

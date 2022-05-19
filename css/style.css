@@ -21,23 +21,15 @@ body h3 {
 
 body nav {
   background-color: #919191;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px 20px;
   height: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
   gap: 15px;
 }
 
 body nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 15px;
 }
@@ -60,21 +52,10 @@ body nav img {
 body header {
   height: 90vh;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
@@ -107,12 +88,7 @@ body header p {
 body section {
   background-color: #a0dcff;
   padding: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
 }
 
@@ -125,16 +101,12 @@ body section.quien {
 }
 
 body section.news {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
 body section.news h2 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-column: 1/4;
   width: 100%;
   text-align: center;
@@ -144,21 +116,12 @@ body section.news article {
   background-color: #ffae00;
   padding: 20px;
   border: 1px solid black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
 }
 
 body section.news article p {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -174,22 +137,15 @@ body section.news article ul {
 }
 
 body section.concesionarios {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  margin: 0 10px;
-  -webkit-columns: 60px 2;
+  margin: 0 0px;
           columns: 60px 2;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
 }
 
 body section.concesionarios h2 {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-column: 1/4;
   width: 100%;
   text-align: center;
@@ -200,26 +156,45 @@ body section.concesionarios section {
   display: flow-root;
 }
 
+body section.vehiculos ul {
+  background-color: azure;
+  display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+
+body section.estadisticas ul {
+  background-color: azure;
+  display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+
 body footer {
   height: 200px;
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
           flex-direction: column;
   background-color: #b9b9b9;
 }
 
 body footer p {
   font-size: 1.4rem;
+}
+
+body #map {
+  height: 600px;
 }
 /*# sourceMappingURL=style.css.map */

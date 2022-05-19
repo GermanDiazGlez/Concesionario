@@ -1,4 +1,32 @@
-<concesionarios>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE concesionarios [
+<!ELEMENT concesionarios (concesionario+)>
+<!ELEMENT concesionario (nombre, marca, numeroVehiculos, ubicacion, imagen, empleados, direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT numeroVehiculos (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (nombre-empleado, apellidos, telefono)>
+<!ELEMENT nombre-empleado (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST concesionarios xmlns:xsi CDATA #REQUIRED>
+<!ATTLIST concesionarios xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+<!ATTLIST concesionario tipo-vehiculo CDATA #REQUIRED>
+<!ATTLIST ubicacion 
+    lat CDATA #REQUIRED
+    lng CDATA #REQUIRED>
+<!ATTLIST imagen 
+    src CDATA #REQUIRED
+    title CDATA #REQUIRED
+    alt CDATA #REQUIRED>
+<!ATTLIST empleado puesto CDATA #REQUIRED>
+]>
+
+<concesionarios xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='concesionarios.xsd'>
     <concesionario tipo-vehiculo="Deportivo">
         <nombre>Varocar</nombre>
         <marca>Seat</marca>
@@ -22,7 +50,7 @@
     <concesionario tipo-vehiculo="Deportivo">
         <nombre>Tartiere Auto</nombre>
         <marca>Volkswagen</marca>
-        <numeroVehiculos>43</numeroVehiculos>,
+        <numeroVehiculos>43</numeroVehiculos>
         <ubicacion lat="43.40694059256487" lng="-5.804820702131801"></ubicacion>
         <imagen src="tartiere.jpg" title="TartiereFoto" alt="Concesionario Tartiere"></imagen>
         <empleados>
@@ -42,7 +70,7 @@
     <concesionario tipo-vehiculo="Todoterreno">
         <nombre>Mitsubishi Cisacar</nombre>
         <marca>Mitsubishi</marca>
-        <numeroVehiculos>20</numeroVehiculos>,
+        <numeroVehiculos>20</numeroVehiculos>
         <ubicacion lat="43.39239186388887" lng="-5.79372357870682"></ubicacion>
         <imagen src="mitsubishi.jpg" title="MitsubishiFoto" alt="Concesionario Mitsubishi"></imagen>
         <empleados>
@@ -67,7 +95,7 @@
     <concesionario tipo-vehiculo="Deportivo">
         <nombre>Autos Myr</nombre>
         <marca>Seat</marca>
-        <numeroVehiculos>13</numeroVehiculos>,
+        <numeroVehiculos>13</numeroVehiculos>
         <ubicacion lat="43.34534701651665" lng="-5.852967484443624"></ubicacion>
         <imagen src="myr.jpg" title="MyrFoto" alt="Concesionario Myr"></imagen>
         <empleados>
